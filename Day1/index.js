@@ -2,7 +2,7 @@
 according to the given commands. The structure of your project would look something like this:*/
 
 const readline = require("readline");
-const { add, sub, mult, div } = require("./Day1/lib./math");
+const { add, sub, mult, div } = require("./lib./math");
 const fs = require("fs");
 
 const rl = readline.createInterface({   
