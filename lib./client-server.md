@@ -38,5 +38,5 @@ Complexity: Managing communication protocols, data synchronization, and security
 Use Cases
 Web Applications: Client-server architecture is commonly used in web development, where the browser acts as the client and communicates with a web server to access resources.
 Enterprise Systems: Many enterprise applications follow a client-server architecture, where desktop or mobile clients interact with backend servers to access corporate data and services.
-Cloud Computing: Cloud-based services often utilize client-server architecture to provide scalable and reliable infrastructure and platform services.
+Cloud Computing: Cloud-based services often utilize client-server architecture to provide scalable and reliable infrastructure and platform services.                           
 
