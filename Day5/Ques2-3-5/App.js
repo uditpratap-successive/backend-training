@@ -7,6 +7,7 @@ const Errorhandler=require('./Middleware/ErrorHandling')
 const app = express();
 
 app.use(createError);
+app.use(Errorhandler)
 app.get('/',(req,res)=>{
     res.send('I am available')
 })
@@ -19,8 +20,6 @@ app.get('/user',(req,res)=>{
 app.get('/contact',(req,res)=>{
     res.send('I am contact')
 })
-app.use(Errorhandler)
-
 app.listen(3000,()=>{
     console.log('Server running on port 3000')
 })
