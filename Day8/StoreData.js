@@ -16,7 +16,6 @@ app.post("/", async (req, res) => {
     res.status(500).json("There is some issue");
   }
 });
-
 app.get("/checkdata", async (req, res) => {
   try {
     const data = await collection.find();

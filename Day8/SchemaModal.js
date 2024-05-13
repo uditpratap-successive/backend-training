@@ -1,5 +1,4 @@
 const mongoose=require('mongoose');
-
 const countryschema=new mongoose.Schema({
     country:String,
     state:Number

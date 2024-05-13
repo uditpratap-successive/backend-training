@@ -17,7 +17,10 @@ const developer = new Developer("Gapur", "Frontend Developer");
 console.log(developer.name); 
 console.log(developer.position);
 
+
 ```
+
+
 <br/>
 
 # TypeScript Interfaces
@@ -43,4 +46,6 @@ class Lion implements Animal {
 const lion = new Lion("Simba", "Roar");
 console.log(lion.name); 
 console.log(lion.sound);
+
+
 ```
