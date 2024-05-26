@@ -1,5 +1,3 @@
-
-
 const validation = require("./Config");
 const middleware = (req, res, next) => {
   const route = req.path;
@@ -48,5 +46,4 @@ const middleware = (req, res, next) => {
   }
   next();
 };
-
 module.exports = middleware;
